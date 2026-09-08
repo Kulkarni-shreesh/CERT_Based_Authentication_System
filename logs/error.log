@@ -1,0 +1,18 @@
+2026/05/22 23:09:36 [emerg] 16464#42016: CreateDirectory() "C:\Users\kulka\OneDrive\Desktop\cert-based authentication/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2026/05/22 23:16:08 [notice] 41816#32936: signal process started
+2026/05/22 23:32:43 [notice] 41920#42000: signal process started
+2026/05/22 23:34:37 [notice] 37900#43512: signal process started
+2026/05/23 00:05:10 [notice] 39764#16180: signal process started
+2026/07/07 00:32:43 [notice] 34568#37392: signal process started
+2026/07/07 00:39:29 [notice] 2284#27600: signal process started
+2026/07/08 00:11:48 [notice] 29816#20896: signal process started
+2026/07/08 00:11:48 [error] 29816#20896: OpenEvent("Global\ngx_reload_7380") failed (2: The system cannot find the file specified)
+2026/07/08 00:21:13 [notice] 27848#39616: signal process started
+2026/07/08 00:21:41 [notice] 32008#34176: signal process started
+2026/07/08 00:24:43 [notice] 15972#35452: signal process started
+2026/07/08 00:29:16 [notice] 29192#26512: signal process started
+2026/07/09 00:03:34 [notice] 19536#41464: signal process started
+2026/07/09 01:15:30 [notice] 39972#39956: signal process started
+2026/07/13 00:28:54 [notice] 12824#34432: signal process started
+2026/07/13 00:33:36 [notice] 42200#39488: signal process started
+2026/08/04 00:05:41 [notice] 46612#33488: signal process started

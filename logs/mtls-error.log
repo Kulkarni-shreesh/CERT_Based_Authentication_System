@@ -1,0 +1,149 @@
+2026/05/22 23:10:29 [info] 37196#42960: *2 client sent no required SSL certificate while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2026/05/22 23:11:27 [info] 37196#42960: *3 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:11:28 [error] 37196#42960: *4 CreateFile() "C:/Users/kulka/OneDrive/Desktop/cert-based authentication/www/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2026/05/22 23:11:28 [info] 37196#42960: *4 client 127.0.0.1 closed keepalive connection
+2026/05/22 23:12:28 [info] 37196#42960: *5 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:12:43 [info] 37196#42960: *6 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:12:49 [error] 37196#42960: *9 CreateFile() "C:/Users/kulka/OneDrive/Desktop/cert-based authentication/www/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2026/05/22 23:12:49 [info] 37196#42960: *9 client 127.0.0.1 closed keepalive connection
+2026/05/22 23:12:59 [info] 37196#42960: *11 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:12:59 [info] 37196#42960: *12 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:13:10 [error] 37196#42960: *13 CreateFile() "C:/Users/kulka/OneDrive/Desktop/cert-based authentication/www/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/mtls-debug"
+2026/05/22 23:13:44 [info] 37196#42960: *8 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:13:49 [info] 37196#42960: *10 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:14:11 [info] 37196#42960: *14 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:16:26 [info] 39696#37176: *15 client closed connection while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:16:29 [info] 39696#37176: *16 client sent no required SSL certificate while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/05/22 23:18:11 [info] 39696#37176: *20 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:18:11 [info] 39696#37176: *22 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:33:16 [info] 38076#42956: *23 client SSL certificate verify error: (3:unable to get certificate CRL) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/05/22 23:33:18 [info] 38076#42956: *24 client SSL certificate verify error: (3:unable to get certificate CRL) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/05/22 23:35:01 [info] 18532#38500: *25 client SSL certificate verify error: (23:certificate revoked) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/05/22 23:40:38 [error] 18532#38500: *28 CreateFile() "C:/Users/kulka/OneDrive/Desktop/cert-based authentication/www/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2026/05/22 23:40:38 [info] 18532#38500: *28 client 127.0.0.1 closed keepalive connection
+2026/05/22 23:40:57 [info] 18532#38500: *32 client SSL certificate verify error: (10:certificate has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/05/22 23:40:59 [info] 18532#38500: *33 client SSL certificate verify error: (23:certificate revoked) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/05/22 23:41:02 [info] 18532#38500: *34 client sent no required SSL certificate while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/05/22 23:41:38 [info] 18532#38500: *29 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:46:25 [error] 18532#38500: *35 CreateFile() "C:/Users/kulka/OneDrive/Desktop/cert-based authentication/www/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2026/05/22 23:46:25 [info] 18532#38500: *35 client 127.0.0.1 closed keepalive connection
+2026/05/22 23:47:25 [info] 18532#38500: *36 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:57:51 [info] 18532#38500: *37 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:57:51 [info] 18532#38500: *38 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/22 23:59:03 [info] 18532#38500: *41 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/23 00:03:14 [info] 18532#38500: *42 client SSL certificate verify error: (10:certificate has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/05/23 00:03:15 [info] 18532#38500: *43 client SSL certificate verify error: (23:certificate revoked) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/05/23 00:05:39 [info] 18532#38500: *46 client 127.0.0.1 closed keepalive connection
+2026/05/23 00:05:39 [info] 18532#38500: *48 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/23 00:05:47 [info] 18532#38500: *49 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/23 00:05:47 [info] 18532#38500: *50 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/23 00:06:13 [info] 18532#38500: *53 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/23 00:06:13 [info] 18532#38500: *51 client 127.0.0.1 closed keepalive connection
+2026/05/23 00:06:19 [info] 18532#38500: *57 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/23 00:06:19 [info] 18532#38500: *58 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/23 00:06:22 [info] 18532#38500: *59 client SSL certificate verify error: (23:certificate revoked) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/05/23 00:06:22 [info] 18532#38500: *60 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/23 00:06:35 [info] 18532#38500: *61 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/23 00:06:35 [info] 18532#38500: *62 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/23 00:06:43 [info] 18532#38500: *63 client 127.0.0.1 closed keepalive connection
+2026/05/23 00:06:43 [info] 18532#38500: *65 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/24 22:08:12 [info] 18532#38500: *66 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/24 22:08:13 [info] 18532#38500: *67 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/24 22:08:25 [info] 18532#38500: *68 client 127.0.0.1 closed keepalive connection
+2026/05/24 22:08:25 [info] 18532#38500: *70 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/24 22:08:29 [info] 18532#38500: *71 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/24 22:08:29 [info] 18532#38500: *72 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/24 22:08:33 [info] 18532#38500: *73 client SSL certificate verify error: (23:certificate revoked) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/05/24 22:08:47 [info] 18532#38500: *74 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/24 22:08:51 [info] 18532#38500: *75 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/24 22:08:51 [info] 18532#38500: *76 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/24 22:09:03 [info] 18532#38500: *77 client 127.0.0.1 closed keepalive connection
+2026/05/24 22:09:03 [info] 18532#38500: *79 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/24 22:09:07 [info] 18532#38500: *80 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/24 22:09:07 [info] 18532#38500: *81 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/24 22:09:18 [info] 18532#38500: *82 client sent no required SSL certificate while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/05/24 22:09:19 [info] 18532#38500: *83 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/31 12:02:55 [info] 18532#38500: *84 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/31 12:02:55 [info] 18532#38500: *85 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/31 12:03:36 [info] 18532#38500: *86 client 127.0.0.1 closed keepalive connection
+2026/05/31 12:03:36 [info] 18532#38500: *88 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/31 12:17:36 [info] 18532#38500: *89 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/31 12:17:36 [info] 18532#38500: *90 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/31 12:18:41 [info] 18532#38500: *93 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/31 12:18:41 [info] 18532#38500: *91 client 127.0.0.1 closed keepalive connection
+2026/05/31 12:18:47 [info] 18532#38500: *95 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/31 12:18:47 [info] 18532#38500: *96 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/05/31 12:19:16 [info] 18532#38500: *97 client SSL certificate verify error: (23:certificate revoked) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/05/31 12:20:16 [info] 18532#38500: *98 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/07 00:34:01 [info] 21044#34668: *1 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/07 00:34:01 [info] 21044#34668: *2 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/07 00:34:07 [info] 21044#34668: *3 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app/portal HTTP/1.1", host: "localhost"
+2026/07/07 00:34:07 [info] 21044#34668: *4 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/app/portal"
+2026/07/07 00:35:08 [info] 21044#34668: *5 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:17:19 [info] 13864#31568: *1 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:17:19 [info] 13864#31568: *2 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:17:26 [info] 13864#31568: *3 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app/admin/users HTTP/1.1", host: "localhost"
+2026/07/08 00:17:27 [info] 13864#31568: *4 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/app/admin/users"
+2026/07/08 00:17:28 [info] 13864#31568: *5 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app/admin/users HTTP/1.1", host: "localhost"
+2026/07/08 00:17:29 [info] 13864#31568: *6 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/app/admin/users"
+2026/07/08 00:17:30 [info] 13864#31568: *7 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app/admin/users HTTP/1.1", host: "localhost"
+2026/07/08 00:17:30 [info] 13864#31568: *8 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app/admin/users HTTP/1.1", host: "localhost"
+2026/07/08 00:17:30 [info] 13864#31568: *9 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app/admin/users HTTP/1.1", host: "localhost"
+2026/07/08 00:17:30 [info] 13864#31568: *10 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/app/admin/users"
+2026/07/08 00:17:30 [info] 13864#31568: *11 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app/admin/users HTTP/1.1", host: "localhost"
+2026/07/08 00:17:30 [info] 13864#31568: *12 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/app/admin/users"
+2026/07/08 00:17:30 [info] 13864#31568: *13 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app/admin/users HTTP/1.1", host: "localhost"
+2026/07/08 00:17:31 [info] 13864#31568: *14 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/app/admin/users"
+2026/07/08 00:17:36 [info] 13864#31568: *15 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app/admin/users HTTP/1.1", host: "localhost"
+2026/07/08 00:17:36 [info] 13864#31568: *16 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/app/admin/users"
+2026/07/08 00:19:54 [info] 13864#31568: *17 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:19:55 [info] 13864#31568: *18 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:19:57 [info] 13864#31568: *19 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/07/08 00:19:57 [info] 13864#31568: *20 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/app"
+2026/07/08 00:20:58 [info] 13864#31568: *21 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:21:25 [info] 13864#31568: *22 client SSL certificate verify error: (12:CRL has expired) while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/07/08 00:23:02 [error] 4264#20400: *3 CreateFile() "C:/Users/kulka/OneDrive/Desktop/cert-based authentication/www/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/app"
+2026/07/08 00:23:37 [info] 4264#20400: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:23:37 [info] 4264#20400: *3 client 127.0.0.1 closed keepalive connection
+2026/07/08 00:24:47 [info] 4264#20400: *13 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:25:56 [info] 36496#13584: *29 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:27:45 [info] 36496#13584: *32 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:43:15 [info] 19220#29168: *33 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:43:15 [info] 19220#29168: *34 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:44:23 [info] 19220#29168: *37 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:47:00 [info] 19220#29168: *41 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:51:09 [info] 19220#29168: *50 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:51:09 [info] 19220#29168: *48 client 127.0.0.1 closed keepalive connection
+2026/07/08 00:51:14 [info] 19220#29168: *54 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:51:14 [info] 19220#29168: *55 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/08 00:52:20 [info] 19220#29168: *58 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/09 00:15:11 [info] 19220#29168: *60 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/09 00:15:11 [info] 19220#29168: *61 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/09 00:15:38 [error] 19220#29168: *62 CreateFile() "C:/Users/kulka/OneDrive/Desktop/cert-based authentication/www/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost", referrer: "https://localhost/app"
+2026/07/09 00:16:34 [info] 19220#29168: *64 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/09 00:48:30 [error] 19220#29168: *65 CreateFile() "C:/Users/kulka/OneDrive/Desktop/cert-based authentication/www/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost", referrer: "https://localhost/app"
+2026/07/09 00:48:39 [error] 19220#29168: *65 CreateFile() "C:/Users/kulka/OneDrive/Desktop/cert-based authentication/www/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost", referrer: "https://localhost/app"
+2026/07/09 00:49:30 [info] 19220#29168: *66 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/09 00:58:42 [info] 19220#29168: *68 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/09 00:58:42 [info] 19220#29168: *69 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/09 00:58:52 [error] 19220#29168: *70 CreateFile() "C:/Users/kulka/OneDrive/Desktop/cert-based authentication/www/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "localhost", referrer: "https://localhost/app"
+2026/07/09 00:59:46 [info] 19220#29168: *72 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/09 01:18:38 [info] 19220#29168: *73 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/09 01:18:38 [info] 19220#29168: *74 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/09 01:19:41 [info] 19220#29168: *77 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/13 00:29:23 [info] 19220#29168: *78 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/13 00:29:23 [info] 19220#29168: *79 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/13 00:29:32 [info] 19220#29168: *80 client sent no required SSL certificate while reading client request headers, client: 127.0.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2026/07/13 00:29:35 [info] 19220#29168: *81 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/13 00:41:44 [info] 19220#29168: *82 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/13 00:41:44 [info] 19220#29168: *83 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/07/13 00:42:27 [info] 19220#29168: *84 client 127.0.0.1 closed keepalive connection
+2026/07/13 00:42:27 [info] 19220#29168: *86 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/08/04 00:20:44 [info] 19220#29168: *87 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/08/04 00:20:45 [info] 19220#29168: *88 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/08/04 00:21:52 [info] 19220#29168: *91 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
+2026/08/04 15:23:53 [info] 19220#29168: *92 SSL_do_handshake() failed (SSL: error:0A000416:SSL routines::ssl/tls alert certificate unknown:SSL alert number 46) while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/08/04 15:23:53 [info] 19220#29168: *93 SSL_do_handshake() failed (SSL: error:0A000416:SSL routines::ssl/tls alert certificate unknown:SSL alert number 46) while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/08/04 15:36:53 [info] 19220#29168: *94 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/08/04 15:36:54 [info] 19220#29168: *95 peer closed connection in SSL handshake while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:443
+2026/08/04 15:38:07 [info] 19220#29168: *98 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:443
