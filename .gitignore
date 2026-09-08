@@ -12,3 +12,14 @@
 
 # Temporary files
 temp/
+
+# PKI private material
+pki/private/
+
+# Local CA database/state
+pki/root-ca-db/
+pki/intermediate-ca-db/
+pki/index.txt
+pki/index.txt.attr
+pki/serial
+pki/crlnumber
