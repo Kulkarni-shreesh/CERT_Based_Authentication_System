@@ -1,0 +1,14 @@
+# Private certificates / keys
+*.p12
+*.pfx
+*.key
+*.pem
+
+# Database
+*.db
+
+# Logs
+*.log
+
+# Temporary files
+temp/
