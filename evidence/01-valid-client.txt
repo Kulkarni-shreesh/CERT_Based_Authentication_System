@@ -1,0 +1,31 @@
+Connecting to 127.0.0.1
+Can't use SSL_get_servername
+depth=2 C=IN, ST=Karnataka, L=Bengaluru, O=Cert Based Auth Lab, OU=Phase 1, CN=Cert Based Auth Root CA
+verify return:1
+depth=1 C=IN, ST=Karnataka, L=Bengaluru, O=Cert Based Auth Lab, OU=Phase 1, CN=Cert Based Auth Intermediate CA
+verify return:1
+depth=0 C=IN, ST=Karnataka, L=Bengaluru, O=Cert Based Auth Lab, OU=Phase 2, CN=localhost
+verify return:1
+HTTP/1.1 200 OK
+Server: nginx/1.30.1
+Date: Fri, 22 May 2026 18:10:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 462
+Connection: close
+X-SSL-Client-Verify: SUCCESS
+X-SSL-Client-DN: CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN
+
+{
+  "authenticated": true,
+  "cn": "phase1-client",
+  "user": {
+    "id": 1,
+    "cn": "phase1-client",
+    "username": "phase1_client",
+    "display_name": "Phase 1 Client",
+    "role": "student"
+  },
+  "ssl_client_verify": "SUCCESS",
+  "ssl_client_s_dn": "CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN",
+  "ssl_client_i_dn": "CN=Cert Based Auth Intermediate CA,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN"
+}

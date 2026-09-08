@@ -1,0 +1,19 @@
+127.0.0.1 - SUCCESS - CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:10:29 +0530] "GET /mtls-debug HTTP/1.1" 200
+127.0.0.1 - NONE - - - [22/May/2026:23:10:29 +0530] "GET / HTTP/1.1" 400
+127.0.0.1 - SUCCESS - CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:11:28 +0530] "GET /favicon.ico HTTP/1.1" 404
+127.0.0.1 - SUCCESS - CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:12:43 +0530] "GET /mtls-debug HTTP/1.1" 200
+127.0.0.1 - SUCCESS - CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:12:49 +0530] "GET /favicon.ico HTTP/1.1" 404
+127.0.0.1 - SUCCESS - CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:13:10 +0530] "GET /mtls-debug HTTP/1.1" 200
+127.0.0.1 - SUCCESS - CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:13:10 +0530] "GET /favicon.ico HTTP/1.1" 404
+127.0.0.1 - NONE - - - [22/May/2026:23:16:29 +0530] "GET /app HTTP/1.1" 400
+127.0.0.1 - SUCCESS - CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:16:43 +0530] "GET /app HTTP/1.1" 200
+127.0.0.1 - SUCCESS - CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:17:11 +0530] "GET /app HTTP/1.1" 200
+127.0.0.1 - FAILED:unable to get certificate CRL - CN=revoked-client,OU=Phase 4,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:33:16 +0530] "GET /app HTTP/1.1" 400
+127.0.0.1 - FAILED:unable to get certificate CRL - CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:33:18 +0530] "GET /app HTTP/1.1" 400
+127.0.0.1 - FAILED:certificate revoked - CN=revoked-client,OU=Phase 4,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:35:01 +0530] "GET /app HTTP/1.1" 400
+127.0.0.1 - SUCCESS - CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:35:01 +0530] "GET /app HTTP/1.1" 200
+127.0.0.1 - SUCCESS - CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:40:38 +0530] "GET /favicon.ico HTTP/1.1" 404
+127.0.0.1 - SUCCESS - CN=phase1-client,OU=Phase 1,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:40:55 +0530] "GET /app HTTP/1.1" 200
+127.0.0.1 - FAILED:certificate has expired - CN=expired-client,OU=Phase 5,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:40:57 +0530] "GET /app HTTP/1.1" 400
+127.0.0.1 - FAILED:certificate revoked - CN=revoked-client,OU=Phase 4,O=Cert Based Auth Lab,L=Bengaluru,ST=Karnataka,C=IN - [22/May/2026:23:40:59 +0530] "GET /app HTTP/1.1" 400
+127.0.0.1 - NONE - - - [22/May/2026:23:41:02 +0530] "GET /app HTTP/1.1" 400
